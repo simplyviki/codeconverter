@@ -2,7 +2,9 @@
 #How to run the application 
 Once you are in the environment having all the dependencies and packages. 
 You need to provide your own OPENAI API KEY to interact with the LLM.
+
 create a new ".env" file and put OPENAI API KEY like below:
+
 OPENAI_API_KEY=<put your OPENAI API KEY HERE>
 
 Command to run application: streamlit run main.py
