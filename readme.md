@@ -1,14 +1,16 @@
-How to Run the Application
+## How to Run the Application
+
 Once you are in the environment with all the dependencies and packages, you need to provide your own OPENAI API KEY to interact with the LLM.
 
-To set up your API key, create a new ".env" file and put the OPENAI API KEY like this:
+Create a new `.env` file and put the OPENAI API KEY like this:
 
 OPENAI_API_KEY=<put your OPENAI API KEY HERE>
-Command to run the application: streamlit run main.py
 
-Sample SAS Code for Conversion
-sas
-Copy code
+Command to run the application: `streamlit run main.py`
+
+## Sample SAS Code for Conversion
+
+```sas
 /* This code creates a simple data set with two variables, age and height. */
 
 DATA simple_data;
